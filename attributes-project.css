@@ -1,0 +1,150 @@
+
+
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+/* Write your CSS here. */
+* {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #464646;
+  background-color: whitesmoke;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover,
+a > span:hover {
+  color: #800080;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #800080;
+}
+
+.page-container{
+  max-width: 1200px;
+  margin:auto;
+}
+
+#leftbar, #center, #rightbar{
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+footer{
+  clear: both;
+}
+
+#leftbar, #rightbar{
+  width: 25%;
+}
+
+#center{
+  width:50%;
+  border: solid 1px #464646;
+  border-radius: 10px;
+}
+
+#center > div{
+  float: left;
+  width: 33%;
+}
+
+#topban h2{
+  text-align: center;
+}
+
+ul + .clfooter {
+  text-align: center;
+  border-top: 1px;
+  border-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before{
+  content: "☮️ ";
+}
+
+table, td, th {
+  border-collapse: seperate;
+  border: solid 1px #333;
+  text-align: center;
+}
+
+.past {
+  color: #00000080
+}
+
+td.past:hover {
+  cursor: crosshair;
+}
+
+td a{
+  font-weight: bold;
+  color: green;
+}
+
+td.today a{
+  background-color: darkviolet;
+  color: white;
+}
+
+/*It still shows the background color from the universal selector and the tiny link span has color change*/
+ td a:hover {
+  background-color:blue;
+}
