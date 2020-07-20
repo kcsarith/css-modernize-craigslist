@@ -144,7 +144,11 @@ td.today a{
   color: white;
 }
 
+td > a{
+  background-color: #0000;
+}
+
 /*It still shows the background color from the universal selector and the tiny link span has color change*/
- td a:hover {
+ td:hover {
   background-color:blue;
 }
